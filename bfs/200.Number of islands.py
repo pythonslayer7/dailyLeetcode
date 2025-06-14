@@ -22,6 +22,5 @@ class Solution:
                     bfs(i, j)
                     island += 1
         return island
-
-
-
+    # Time O(m x n) traverse the grid to find 1s, ignore 0s
+    # Space O(m x n) visited matrix (m x n) and queue the worse case = O(m x n) if all land cells 1s. 
