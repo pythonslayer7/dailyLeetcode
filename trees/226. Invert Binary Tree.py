@@ -13,3 +13,5 @@ class Solution:
         
         # recursive with postorder logic, we swap the left and righ node 
         root.left, root.right = self.invertTree(root.right), self.invertTree(root.left)
+
+        return root
