@@ -15,3 +15,4 @@ class Solution:
                 left += 1
             currPos -= 1
         return result
+    # O(n) time, O(1) space
